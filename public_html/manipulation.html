@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Manipulation</title>
+  <script src="manipulation.js"></script>
+</head>
+<style>
+    p {
+        border-color: black;
+        border-width: 0px;
+        border-style: "solid";
+    }
+    input {
+        float: right;
+    }
+</style>
+<body>
+    <div style="width: 50%">
+        <p id="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Tincidunt nunc pulvinar sapien et ligula. A erat nam at lectus. Purus sit amet volutpat consequat. Sem viverra aliquet eget sit. Mauris a diam maecenas sed enim ut sem. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Posuere lorem ipsum dolor sit. Et netus et malesuada fames ac turpis.</p>        
+        <br/><br/>
+        <div id="border-div" style="width: 300px">
+            <h3>Border:</h3>
+            <p>Red:   <input type="number" min="0" max="255" value="0" onchange="changeBorder()"/></p>
+            <p>Green: <input type="number" min="0" max="255" value="0" onchange="changeBorder()"/></p>
+            <p>Blue:  <input type="number" min="0" max="255" value="0" onchange="changeBorder()"/></p>
+            <p>Width: <input type="number" min="0" max="25" value="0" onchange="changeBorder()"/></p>
+        </div>
+        <div id="color-div" style="width: 300px">
+            <h3>Background Color:</h3>
+            <p>Red:   <input type="number" min="0" max="255" value="0" onchange="changeColor()"/></p>
+            <p>Green: <input type="number" min="0" max="255" value="0" onchange="changeColor()"/></p>
+            <p>Blue:  <input type="number" min="0" max="255" value="0" onchange="changeColor()"/></p>
+        </div>  
+    </div>
+</body>
+</html>

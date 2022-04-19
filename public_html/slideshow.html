@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slide Show</title>
+  <script src="slideshow.js"></script>
+</head>
+<style>
+  div{
+    width: 300px;
+  }
+  p {
+    float: right;
+  }
+  img {
+    width: 300px;
+    height: 550px;
+    object-fit:cover;
+  }
+</style>
+<body>
+  <img src="ep1.jpg">
+    <br/>
+    <div>
+      <button id="prevBtn" onclick="changeImg(-1)">prev</button>
+      <button id="nextBtn" onclick="changeImg(1)">next</button>
+      <p>1/6</p>
+    </div>
+  </img>
+
+</body>
+</html>

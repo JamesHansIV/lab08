@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(93, 93, 219);
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 48px;
+}
+
+p {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+}
+
+p.foot {
+    float: left;
+    text-align: center;
+    font-size: 16px;
+}
+
+a {
+    color: white;
+    font-size: 22px;
+}
+
+a:hover {
+    background-color: rgb(6, 26, 85);
+}
+
+iframe {
+    height: 480px;
+    width: 640px;
+}
